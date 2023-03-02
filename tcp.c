@@ -225,21 +225,21 @@ int LISTENING_SOCKETS=0;
 struct timeval timeout;
 
 //Indirizzi Vari
-unsigned char mymac[6]={0x00,0x1f,0xe1,0x16,0x4c,0x3f};
+unsigned char mymac[6]={0x00,0x50,0x56,0x9f,0xda,0xfb};
 
 //unsigned char myip[4]={88,80,187,84};
-unsigned char myip[4]={192,168,1,112};
+unsigned char myip[4]={195,231,83,161};
 
 //Modem Casa
-unsigned char gateway[6]={0x34,0xe8,0x94,0xf6,0x27,0x78};
+unsigned char gateway[6]={0x00,0x00,0x5e,0x00,0x01,0x68};
 
 //Server prof
 //unsigned char gateway[6]={0xd8,0xce,0x3a,0x2b,0xf4,0xe9};
 //unsigned char gateway_server[6]={0x84,0x78,0xac,0x5a,0x1a,0x41};
-unsigned char googleip[4]={216,58,206,99};
+unsigned char googleip[4]={142,251,163,94};
 
 //Sockaddr
-struct sockaddr_ll sll={.sll_ifindex=4};
+struct sockaddr_ll sll={.sll_ifindex=2};
 int len=sizeof(struct sockaddr_ll);
 
 /********************************************************

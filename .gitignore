@@ -1,0 +1,7 @@
+# Ignored Files by Git
+
+*.out
+*.exe
+
+# Ignore Build Directory
+bin/
